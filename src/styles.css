@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  width: 500px;
+  margin: auto;
+}
+
+#divBody {
+  display: flex;
+}
+.scrolldiv {
+  height: 80px;
+  overflow-y: hidden;
+}
+.scrolldiv ul {
+  display: flex;
+  list-style: none;
+}
+.scrolldiv ul li {
+  margin-right: 20px;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
+}
+
+#details {
+  width: 90%;
+}
+
+#reklama {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin: auto;
+}
+
+.footer {
+  text-align: center;
+}
+.header {
+  text-align: center;
+}
